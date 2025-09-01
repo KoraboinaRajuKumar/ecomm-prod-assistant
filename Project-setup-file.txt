@@ -1,0 +1,59 @@
+These are all the commands which you need to run on your command prompt
+
+
+STEPS:   (USING UV CREATING THE PROJECT)
+=====
+
+1).Write python on your terminal : check the version  goto folder and cmd and write python
+
+    - If you have python then no need to install it
+
+    - need to exit using exit()
+
+
+2). check the uv version (uv installed on not) 
+     - uv --version
+     - If you are not able to get the version
+     - pip install uv
+
+3). where uv installed in your system
+   - import shutil
+   - print(shutil.which("uv"))
+ 
+ 
+4). Initilaizing the project
+     - Uv init <my-project-name>
+     - uv init ecomm-prod-assistant
+     - cd ecomm-prod-assistant
+     - after code . open vs code
+
+5). uv pip list
+ 
+6). uv python list
+
+7). uv venv venv
+      - .\venv\Scripts\activate   [Activate]
+
+      - [uv venv env --python cpython-3.10.18-windows-x86_64-none]  [diff way]
+
+8).  uv pip install -r requirements.txt
+        - uv add -r .\requirements.txt  [creating onther venv]
+
+
+
+
+git related:
+============
+18. If your git is asking for login to publish the repo execute this below command
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+
+
+
+https://docs.google.com/document/d/1S51yj-kZ2G1otA2u5ilsPFkEXxJGJaOKadZJkSL3IKc/preview?tab=t.0
+
+Project-Github-Link: https://github.com/sunnysavita10/ecomm-prod-assistant
+
+
+
+https://docs.google.com/    online
