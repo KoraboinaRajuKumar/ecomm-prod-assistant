@@ -1,10 +1,21 @@
+beautifulsoup4
+fastapi
+html5lib
+jinja2
 langchain
+langchain-astradb
+langchain_core
+langchain-google-genai
+langchain-groq
+lxml
 python-dotenv
+python-multipart
+selenium
 streamlit
+undetected-chromedriver
+uvicorn
+structlog
 
 
 
-
-
-
-#uv pip install -r requirements.txt
+# 
