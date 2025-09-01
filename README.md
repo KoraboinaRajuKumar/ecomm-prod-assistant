@@ -13,6 +13,9 @@
 
 - SECOND DAY STEPS TO DEVELOP PROJECT
 
+    1) - requirements file librarys are added and run the file 
+       - uv pip install -r requirements.txt
+
 
 
 
