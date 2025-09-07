@@ -57,3 +57,14 @@ Project-Github-Link: https://github.com/sunnysavita10/ecomm-prod-assistant
 
 
 https://docs.google.com/    online
+
+
+
+
+ASTRA DB:
+
+https://accounts.datastax.com/session-service/v1/login
+
+ASTRA_DB_API_ENDPOINT
+ASTRA_DB_APPLICATION_TOKEN
+ASTRA_DB_KEYSPACE="default_keyspace"

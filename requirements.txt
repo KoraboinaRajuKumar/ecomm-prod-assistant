@@ -12,7 +12,7 @@ python-dotenv
 python-multipart
 selenium
 streamlit
-undetected-chromedriver
+
 uvicorn
 structlog
 
