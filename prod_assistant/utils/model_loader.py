@@ -2,6 +2,8 @@ import os
 import sys
 import json
 from dotenv import load_dotenv
+# Add project root to sys.path for direct script run
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 from prod_assistant.utils.config_loader import load_config
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq

@@ -25,3 +25,12 @@ def load_config(config_path: str | None = None) -> dict:
 
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
+
+if __name__ == "__main__":
+    # Test: Load config and print result
+    try:
+        config = load_config()
+        print("Config loaded successfully:")
+        print(config)
+    except Exception as e:
+        print(f"Error loading config: {e}")

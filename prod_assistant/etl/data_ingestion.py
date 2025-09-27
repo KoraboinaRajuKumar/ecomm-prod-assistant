@@ -6,6 +6,8 @@ from langchain_core.documents import Document
 from langchain_astradb import AstraDBVectorStore
 from prod_assistant.utils.model_loader import ModelLoader
 from prod_assistant.utils.config_loader import load_config
+#from utils.config_loader import load_config
+#from utils.model_loader import ModelLoader
 
 class DataIngestion:
     """
